@@ -1,0 +1,48 @@
+/* Card content */
+.cardContent {
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Card actions */
+.cardActions {
+  display: flex;
+  justify-content: center;
+}
+
+/* Add to cart button */
+Button {
+  background-color: black;
+  color: white;
+}
+
+/* Add hover styles */
+.cardActions Button:hover {
+  background-color: rgb(145, 143, 143);
+  color: black;
+}
+
+
+/* Align tag header to right */
+.tagHeader {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    height: 40px;
+  }
+
+.tagHeader .tag {
+  top: 0;
+  right: 0;
+  width: 30%;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 12px;
+}
